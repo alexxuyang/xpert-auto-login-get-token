@@ -2,7 +2,13 @@
     "email": "test.008@jadewallet.io",
     "password": "",
 
-    "login_url": "https://develop-saas.nbltrust.com/saas-bg/api/v1/session",
-    "code_url": "https://develop-saas.nbltrust.com/saas-bg/api/v1/emailcode?action=login",
-    "verify_url": "https://develop-saas.nbltrust.com/saas-bg/api/v1/account/verify-authcode"
+    "login_url": "/api/v1/session",
+    "code_url": {
+        "email": "/api/v1/emailcode?action=login",
+        "phone": "/api/v1/smscode?action=login"
+    },
+    "verify_url": "/api/v1/account/verify-authcode",
+
+    "dev_url": "https://develop-saas.nbltrust.com/saas-bg",
+    "qa_url": "https://qa-saas.nbltrust.com/saas-bg"
 }

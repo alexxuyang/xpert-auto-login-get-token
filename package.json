@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "args": "^5.0.3",
     "axios": "^0.27.2",
     "log-timestamp": "^0.3.0",
     "wait-for-user-input": "^1.0.0"
