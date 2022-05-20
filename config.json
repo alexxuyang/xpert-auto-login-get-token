@@ -1,6 +1,6 @@
 {
     "email": "test.008@jadewallet.io",
-    "password": "Test1234",
+    "password": "",
 
     "login_url": "https://develop-saas.nbltrust.com/saas-bg/api/v1/session",
     "code_url": "https://develop-saas.nbltrust.com/saas-bg/api/v1/emailcode?action=login",
